@@ -1,0 +1,60 @@
+[
+	{
+        "Name": "ForestMorning",
+        "Sound": "minecraft:forest.morning",
+        "Conditions": "#IsForest# && #IsMorning#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "ForestDay",
+        "Sound": "minecraft:forest.day",
+        "Conditions": "#IsForest# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "ForestEvening",
+        "Sound": "minecraft:forest.evening",
+        "Conditions": "#IsForest# && #IsEvening#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "ForestNight",
+        "Sound": "minecraft:forest.night",
+        "Conditions": "#IsForest# && #IsNight#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "7"
+    },
+    
+    {
+        "Name": "ForestCuckoo",
+        "Sound": "minecraft:forest.cuckoo",
+        "Conditions": "#IsForest# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "20 + Math.random()*20"
+    },
+    {
+        "Name": "ForestWoodpecker",
+        "Sound": "minecraft:forest.woodpecker",
+        "Conditions": "#IsForest# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged || World.IsRaining || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "30 + Math.random()*30"
+    },
+    
+    {
+        "Name": "ForestWind",
+        "Sound": "minecraft:forest.wind",
+        "Conditions": "#IsForest#",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "30 + Math.random()*40"
+    }
+]

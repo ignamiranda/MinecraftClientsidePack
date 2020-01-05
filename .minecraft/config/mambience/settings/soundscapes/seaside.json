@@ -1,0 +1,26 @@
+[
+	{
+        "Name": "SeasideOcean",
+        "Sound": "minecraft:seaside.ocean",
+        "Conditions": "#Salinity# >= 0.1 && Player.IsExposed",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "1",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "SeasideOceanInside",
+        "Sound": "minecraft:seaside.oceaninside",
+        "Conditions": "#Salinity# >= 0.1 && !Player.IsExposed",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "1",
+        "Cooldown": "9"
+    },
+    {
+        "Name": "SeasideBirds",
+        "Sound": "minecraft:seaside.bird",
+        "Conditions": "#Salinity# >= 0.1",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "10 + Math.random()*20"
+    }
+]

@@ -1,0 +1,44 @@
+[
+	{
+        "Name": "JungleDay",
+        "Sound": "minecraft:jungle.day",
+        "Conditions": "#Trees# && #IsJungle# && (#IsMorning# || #IsDay#)",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "JungleNight",
+        "Sound": "minecraft:jungle.night",
+        "Conditions": "#Trees# && #IsJungle# && (#IsEvening# || #IsNight#)",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "7"
+    },
+    
+    {
+        "Name": "JungleFXDay1",
+        "Sound": "minecraft:jungle.fx1",
+        "Conditions": "#Trees# && #IsJungle# && (#IsMorning# || #IsDay#)",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "30 + Math.random()*20"
+    },
+    {
+        "Name": "JungleFXDay2",
+        "Sound": "minecraft:jungle.fx2",
+        "Conditions": "#Trees# && #IsJungle# && (#IsMorning# || #IsDay#)",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "15 + Math.random()*30"
+    },
+    
+    {
+        "Name": "JungleFXNight",
+        "Sound": "minecraft:jungle.fxnight",
+        "Conditions": "#Trees# && #IsJungle# && (#IsEvening# || #IsNight#)",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "10 + Math.random()*30"
+    }
+]

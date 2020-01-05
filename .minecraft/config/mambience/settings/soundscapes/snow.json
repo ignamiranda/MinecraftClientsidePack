@@ -1,0 +1,77 @@
+[
+	{
+        "Name": "SnowForest",
+        "Sound": "minecraft:snow.forest",
+        "Conditions": "#IsCold# && #Trees# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "SnowMountain",
+        "Sound": "minecraft:snow.mountain",
+        "Conditions": "#IsCold# && Player.Y>100",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "SnowPlains",
+        "Sound": "minecraft:snow.plains",
+        "Conditions": "#IsCold#",
+        "Restrictions": "#Trees# || #UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "7"
+    },
+    
+    {
+        "Name": "SnowWindForest",
+        "Sound": "minecraft:snow.wind1",
+        "Conditions": "#IsCold# && #Trees# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "15 * Math.random()*15"
+    },
+    {
+        "Name": "SnowWind",
+        "Sound": "minecraft:snow.wind2",
+        "Conditions": "#IsCold# && #IsDay#",
+        "Restrictions": "#Trees# || #UnderGround# || Player.Submerged",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "15 * Math.random()*15"
+    },
+    {
+        "Name": "SnowWindNight",
+        "Sound": "minecraft:snow.windnight",
+        "Conditions": "#IsCold# && (#IsMorning# || #IsEvening# || #IsNight#)",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "15 * Math.random()*15"
+    },
+    
+    {
+        "Name": "SnowHowl",
+        "Sound": "minecraft:snow.howl",
+        "Conditions": "#IsCold# && #IsNight#",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "20 * Math.random()*40"
+    },
+    {
+        "Name": "SnowCrows",
+        "Sound": "minecraft:snow.crows",
+        "Conditions": "#IsCold# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "20 * Math.random()*40"
+    },
+    
+    {
+        "Name": "SnowCracks",
+        "Sound": "minecraft:snow.cracks",
+        "Conditions": "#IsCold# && (IceBlocks/Scanner.BlockSize >= 0.02)",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "5 * Math.random()*20"
+    }
+]

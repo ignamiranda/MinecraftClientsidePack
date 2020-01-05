@@ -1,0 +1,43 @@
+[
+	{
+        "Name": "PlainsDay",
+        "Sound": "minecraft:plains.day",
+        "Conditions": "#IsPlains# && #IsDay#",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "PlainsNight",
+        "Sound": "minecraft:plains.night",
+        "Conditions": "#IsPlains# && #IsNight#",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "7"
+    },
+    {
+        "Name": "PlainsMorningEvening",
+        "Sound": "minecraft:plains.evening",
+        "Conditions": "#IsPlains# && (#IsMorning# || #IsEvening#)",
+        "Restrictions": "#UnderGround# || Player.Submerged || #InAir#",
+        "Volume": "1*#Muffle#",
+        "Cooldown": "7"
+    },
+    
+    {
+        "Name": "PlainsWind",
+        "Sound": "minecraft:plains.wind",
+        "Conditions": "#IsPlains# && Player.IsExposed",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "1",
+        "Cooldown": "20 + Math.random()*20"
+    },
+    {
+        "Name": "PlainsWindInside",
+        "Sound": "minecraft:plains.windinside",
+        "Conditions": "#IsPlains# && !Player.IsExposed",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "1",
+        "Cooldown": "20 + Math.random()*20"
+    }
+]

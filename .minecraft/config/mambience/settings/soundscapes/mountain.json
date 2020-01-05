@@ -1,0 +1,10 @@
+[
+	{
+        "Name": "MountainHighAltitudeWind",
+        "Sound": "minecraft:mountain.highaltitude",
+        "Conditions": "Player.Y >= 100 && (AirBlocks/Scanner.BlockCount >= 0.3)",
+        "Restrictions": "#UnderGround# || Player.Submerged",
+        "Volume": "Math.min(Math.max((Player.Y - 60)/193 - .20, 0.0), 2.0) * #Muffle#;",
+        "Cooldown": "8 + Math.random() * 8"
+    }
+]

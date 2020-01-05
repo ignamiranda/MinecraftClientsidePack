@@ -1,0 +1,18 @@
+[
+	{
+        "Name": "LavaNear",
+        "Sound": "minecraft:lava.nearlava",
+        "Conditions": "(LavaBlocks/Scanner.BlockSize >= 0.03)",
+        "Restrictions": "Player.Submerged",
+        "Volume": "1",
+        "Cooldown": "3"
+    },
+    {
+        "Name": "LavaPlop",
+        "Sound": "minecraft:lava.plop",
+        "Conditions": "(LavaBlocks/Scanner.BlockSize >= 0.03)",
+        "Restrictions": "Player.Submerged",
+        "Volume": "1",
+        "Cooldown": "10 + Math.random()*10"
+    }
+]

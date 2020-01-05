@@ -1,0 +1,35 @@
+[
+	{
+        "Name": "CaveCave",
+        "Sound": "minecraft:cave.cave",
+        "Conditions": "#UnderGround# && !Player.IsExposed",
+        "Restrictions": "Player.Submerged",
+        "Volume": "1",
+        "Cooldown": "10 + Math.random()*20"
+    },
+    {
+        "Name": "CaveLava",
+        "Sound": "minecraft:cave.lava",
+        "Conditions": "#UnderGround# && !Player.IsExposed && (LavaBlocks/Scanner.BlockSize >= 0.03)",
+        "Restrictions": "Player.Submerged",
+        "Volume": "1",
+        "Cooldown": "10 + Math.random()*20"
+    },
+    
+    {
+        "Name": "CaveVent",
+        "Sound": "minecraft:cave.vent",
+        "Conditions": "#UnderGround# && !Player.IsExposed && (AirBlocks/Scanner.BlockSize >= 0.2)",
+        "Restrictions": "Player.Submerged",
+        "Volume": "1",
+        "Cooldown": "20 + Math.random()*20"
+    },
+    {
+        "Name": "CaveWind",
+        "Sound": "minecraft:cave.wind",
+        "Conditions": "#UnderGround# && !Player.IsExposed",
+        "Restrictions": "Player.Submerged",
+        "Volume": "1",
+        "Cooldown": "10 + Math.random()*20"
+    }
+]
