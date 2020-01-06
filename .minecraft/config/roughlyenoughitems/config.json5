@@ -5,7 +5,7 @@
 		// Declares whether cheating mode is on.
 		"cheating": false,
 		// Declares whether REI is visible.
-		"overlayVisible": false,
+		"overlayVisible": true,
 		"favoritesEnabled": false,
 		"favoriteKeybind": "key.keyboard.a"
 	},

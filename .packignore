@@ -3,9 +3,11 @@
 .minecraft/.optifine
 .minecraft/backups
 .minecraft/chooser_0.png
+.minecraft/config/litematica
 .minecraft/coremods
 .minecraft/craftpresence
 .minecraft/crash-reports
+.minecraft/datapacks
 .minecraft/hs_err_pid10216.log
 .minecraft/hs_err_pid11056.log
 .minecraft/hs_err_pid3832.log
@@ -24,6 +26,7 @@
 .minecraft/replay_pid3832.log
 .minecraft/resourcepacks
 .minecraft/saves
+.minecraft/schematics
 .minecraft/screenshots
 .minecraft/server-resource-packs
 .minecraft/servers.dat
