@@ -62,5 +62,11 @@
     "toolTip": "Show chest icon with number of free inventory slots",
     "value": false,
     "defaultValue": true
+  },
+  "Show all trinkets": {
+    "key": "Show all trinkets",
+    "toolTip": "If you have the trinkets mod, show all trinkets even when they don\u0027t have durability/damage",
+    "value": true,
+    "defaultValue": true
   }
 }
