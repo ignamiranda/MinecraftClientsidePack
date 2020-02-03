@@ -785,7 +785,7 @@
       }
     },
     "overlayLightLevel": {
-      "keys": "F7",
+      "keys": "F4",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
